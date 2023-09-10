@@ -1,5 +1,3 @@
-import { useState } from 'react';
-
 import styled from '@emotion/styled';
 import { Button, Modal, TextInput, Checkbox, Group, rem } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
