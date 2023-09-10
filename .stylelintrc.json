@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "stylelint-config-recommended",
+    "stylelint-config-standard-scss",
+    "stylelint-config-styled-components"
+  ],
+  "overrides": [
+    {
+      "files": ["src/**/*.tsx", "src/**/*.ts"]
+    }
+  ],
+  "customSyntax": "postcss-styled-syntax",
+  "rules": {
+    "no-descending-specificity": null
+  }
+}
